@@ -1,0 +1,23 @@
+## 나누기는 %
+예제 numbers 리스트의 항목 중 짝수인 것만 필터링해서 result에 저장한 후 출력하세요 
+numbers = [ 111, 26, 37, 48]
+
+1차 답안
+numbers = [111, 26, 37, 48]
+
+# 짝수를 필터링하여 result에 저장
+result = [num for num in numbers if num % 2 == 0]
+
+# 결과 출력
+print(result)
+
+필터 함수를 써보세요!
+
+numbers = [111, 26, 37, 48]
+
+# 필터 함수를 사용하여 짝수 필터링
+result = list(filter(lambda x: x % 2 == 0, numbers))
+
+# 결과 출력
+print(result)
+
